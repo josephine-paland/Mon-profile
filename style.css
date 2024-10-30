@@ -1,0 +1,85 @@
+/* Styles futuristes */
+
+body {
+  background-color: #1a1a1a; /* Fond sombre */
+  font-family: 'Roboto', sans-serif;
+  color: #e0e0e0; /* Texte clair */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.card-futuristic {
+  background-color: #222222; /* Fond sombre des cartes */
+  border-radius: 15px;
+  padding: 20px;
+  margin: 15px;
+  box-shadow: 0 4px 15px rgba(0, 255, 255, 0.2);
+  color: #e0e0e0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.highlight {
+  color: #00ffff; /* Texte néon bleu */
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #6c63ff; /* Bouton violet néon */
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #3a33cc; /* Variation sur survol */
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 150px;
+  margin-top: 10px;
+  border: 2px solid #00ffff; /* Bordure néon bleue */
+}
+
+.list-inline {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.list-inline a {
+  color: #6c63ff; /* Couleur des liens */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.list-inline a:hover {
+  color: #00ffff; /* Couleur des liens au survol */
+}
+
+.footer {
+  padding-top: 15px;
+  border-top: 1px solid #333333;
+}
+
+.credits {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #888888;
+}
+
